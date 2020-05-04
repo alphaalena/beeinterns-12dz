@@ -1,0 +1,20 @@
+* {
+    margin: 0 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.padding-top {
+    padding-top: 32px;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+    height: 766px;
+    left: -222px;
+    top: 0px;
+}
+
