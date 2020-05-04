@@ -1,19 +1,31 @@
 <template>
-  <section class="section">
+  <section :class="type">
     <slot/>
   </section>
 </template>
 <script>
 export default {
-  name: 'sectionComponent'
+  name: 'sectionComponent',
+  props: {
+    type: {
+      type: String,
+      default: 'section-dark'
+    }
+  }
 }
 </script>
 <style>
-  .section {
+  .section-dark {
     width: 100%;
     height: 766px;
     margin: 0 auto;
     background: linear-gradient( #2B2835 80% , #FBFCFF 20% );
+  }
+  .section-light {
+    width: 100%;
+    height: 800px;
+    margin: 0 auto;
+    background-color: #FBFCFF;
   }
 
 </style>

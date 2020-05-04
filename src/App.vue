@@ -11,12 +11,12 @@
     </header-component>
     <main-component>
       <column-component>
-        <section-component>
+        <section-component type="section-dark">
           <row-component>
             <headphones-background-component/>
             <description-component>
                   <description-text-component type="text-white" >Beats Studio3 Wireless </description-text-component>
-                  <heading-component>
+                  <heading-component type="light">
                     Experience your <br> music like never before.
                   </heading-component>
                 <container-component>
@@ -24,6 +24,16 @@
                   <link-component type="frame-link" color="black-text">buy now</link-component>
                 </container-component>
                 <description-text-component type="text-yellow">$60 Apple Music gift card with purchase of select Beats products.*</description-text-component>
+            </description-component>
+          </row-component>
+        </section-component>
+        <section-component type="section-light">
+          <row-component>
+            <description-component>
+              <description-text-component type="text-black">Portable Wireless Speaker</description-text-component>
+              <heading-component type="dark-bold">Beats Pill<sup>+</sup></heading-component>
+              <heading-component type="dark">Available Colors</heading-component>
+              <description-text-component type="text-black">Find your Color</description-text-component>
             </description-component>
           </row-component>
         </section-component>

@@ -36,4 +36,5 @@ export default {
     color: #2B2835;
 
   }
+
 </style>
