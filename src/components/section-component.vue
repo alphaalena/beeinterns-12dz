@@ -11,9 +11,9 @@ export default {
 <style>
   .section {
     width: 100%;
-    height: 618px;
+    height: 766px;
     margin: 0 auto;
-    background-color: #2B2835;
+    background: linear-gradient( #2B2835 80% , #FBFCFF 20% );
   }
 
 </style>
