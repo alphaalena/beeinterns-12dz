@@ -1,6 +1,5 @@
 <template>
-  <img  class="logo" src="../assets/logo.png"/>
-
+   <img  class="logo" src="../assets/logo.png"/>
 </template>
 <script>
 export default {
@@ -9,6 +8,8 @@ export default {
 </script>
 <style>
   .logo {
-    padding-top: 15px;
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
   }
 </style>

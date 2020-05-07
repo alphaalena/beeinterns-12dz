@@ -23,9 +23,9 @@ export default {
   }
   .section-light {
     width: 100%;
-    height: 800px;
     margin: 0 auto;
     background-color: #FBFCFF;
+    padding-bottom: 70px;
   }
 
 </style>

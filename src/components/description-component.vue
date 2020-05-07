@@ -12,6 +12,6 @@ export default {
   .description {
     width: 50%;
     text-align: left;
-    padding-top: 200px;
+    padding-top: 100px;
   }
 </style>

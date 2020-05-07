@@ -10,7 +10,7 @@ export default {
 </script>
 <style>
   .container {
-    display: flex;
-    flex-direction: row;
+    width: 1180px;
+    margin: 0 auto;
   }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <img class="icon" :src="'/' + iconName + '.png'">
+    <img :class="type" :src="'/' + iconName + '.png'" >
 </template>
 <script>
 export default {
@@ -8,14 +8,21 @@ export default {
     iconName: {
       type: String,
       required: true
+    },
+    type: {
+      type: String,
+      required: 'icon'
     }
   }
 }
 </script>
 <style>
-  .icon{
-    width: 27px ;
-    height: 27px;
-    margin-right: 20px;
+  .icon {
+    width: 33px ;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+  .image  {
   }
 </style>

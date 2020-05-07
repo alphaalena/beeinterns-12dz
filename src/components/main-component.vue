@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="main">
     <slot/>
   </main>
 </template>
@@ -9,4 +9,6 @@ export default {
 }
 </script>
 <style>
+  .main {
+  }
 </style>

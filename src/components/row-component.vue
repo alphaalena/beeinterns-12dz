@@ -1,20 +1,28 @@
 <template>
-  <div class="row">
+  <div class="row" :justify-start="justifyStart" :justify-center="justifyCenter">
     <slot/>
   </div>
 </template>
 <script>
 export default {
-  name: 'rowComponent'
+  name: 'rowComponent',
+  props: {
+    justifyStart: Boolean,
+    justifyCenter: Boolean
+  }
 }
 </script>
 <style>
   .row {
-    margin: 0 auto;
     justify-content: space-between;
     text-align: center;
     display: flex;
     flex-direction: row;
-    width: 1180px;
+  }
+  .row[justify-start] {
+  justify-content: flex-start;
+  }
+  .row[justify-center] {
+    justify-content: center;
   }
 </style>
